@@ -1,7 +1,7 @@
 HousePrice\_Prediction\_using\_R
 ================
 
-Fitting a linear model using R's caret package to predict house prices
+[Fitting a linear model using R's caret package to predict house prices](https://github.com/MNoorFawi/Linear_Regression_with_R_caret)
 ----------------------------------------------------------------------
 
 we first load the train data and the test data without the "id" and "date" columns (the data is already splitted into two datasets "train" and "test" with different extensions)
