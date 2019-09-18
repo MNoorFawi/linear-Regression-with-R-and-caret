@@ -70,6 +70,10 @@ library(dplyr)
 cor_mat <- cor(house_train) %>% round(digits = 2)
 corrplot(cor_mat, method = 'number',
          tl.srt = 45, tl.col = 'black')
+#method = "shade", type = "upper", shade.col = NA, diag = FALSE
+
+# 2d density plot
+#normal geom_point + stat_density2d(aes(color = ..level..), #geom = "raster" / "polygon")
 ```
 
 ![](HousePrice_Prediction_Using_R_files/figure-markdown_github/corr-1.png)
